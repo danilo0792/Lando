@@ -1,0 +1,605 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+#container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.nav{
+	width: 940px;
+	padding:0 10px 0 10px;
+	background-color: #2D2D2D;
+	height: 85px;
+	margin: 0 auto;
+}
+
+.nav ul li{
+	display: inline;
+	line-height: 85px;
+	float: right;
+	margin-right: 14px;	
+	color: #FFFFFF;
+	height: 30px;
+}
+
+.nav ul li a{
+	text-decoration: none;
+	color:#FFFFFF;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.nav ul li a:hover{
+	background-color: #3CE75A;
+}
+
+
+.logo{
+	width: 148px;	
+	height: 43px;
+	margin:21px 0 0 159px;
+	float: left;
+}
+
+.logo p{
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	line-height: 43px;
+	color: #FFFFFF;
+	margin-right: 15px;
+}
+
+.logo img{
+	height: 43px;
+	float: left;
+}
+
+.banner{
+	width: 960px;
+	height: 512px;
+	background-image: url('../img/bg.jpg');
+	padding-top: 88px;
+}
+
+.slider{
+	background-color: rgba(79,70,72,.6);
+	width: 960px;
+	height: 398px;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#6F6266,endColorstr=#4c000000);
+}
+
+.article{
+	width: 960px;
+	text-align: center;
+	padding: 50px 0px 0px 0px;
+}
+
+.article .texto-container{
+	margin: 41px 0 20px 0;
+	text-align: center;
+}
+
+
+.slider{
+	position: relative;
+	padding: 63px 0 0 0;
+}
+
+.btnAnterior{
+	background-image: url('../img/anterior.png');
+	width: 42px;
+	height: 40px;
+	position: absolute;
+	top: 179px;
+	left: 22px;
+	cursor: pointer;
+}
+
+
+.btnProximo{
+	background-image: url('../img/proximo.png');
+	width: 42px;
+	height: 40px;
+	position: absolute;
+	top: 179px;
+	right: 22px;
+	cursor: pointer;
+}
+
+.textoSlider{
+	color: #FFFFFF;
+	height: 200px;
+	width: 450px;
+	margin: 0px 0px 0px 80px;
+}
+
+.textoSlider h1{
+	margin: 0 0 44px 0;
+}
+
+
+#explore{
+	background-color:#306B97;
+	padding: 10px;
+
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	color: #FFFFFF;
+
+}
+
+#purchase{
+	background-color:#006600;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	color: #FFFFFF;
+
+}
+
+.btnSlider{
+	margin: 0px 0px 57px 80px;
+}
+
+.imgSlider{
+	width: 282px;
+	height: 206px;
+	position: absolute;
+	left: 570px;
+	bottom: 150px;
+}
+
+.imgSlider img{
+	width: 282px;
+	height: 206px;
+}
+
+
+.menu-central1{
+	height: 185px;
+	width: 960px;
+	background-color: #306B97;
+	position: relative;
+}
+
+.menu-central1 img{
+	float: left;
+	margin: 50px 0 0 300px;
+}
+
+.menu-central1 .texto-menu-central{
+	float: left;
+	margin: 50px 0 0 26px;
+}
+
+
+
+.menu-central2{
+	height: 185px;
+	width: 960px;
+	background-color: #295B80;
+	color: #FFFFFF;
+}
+
+
+.menu-central1 #purchase{
+	position: absolute;
+	top:170px;
+	left:434px;
+}
+
+
+.seta-baixo {
+	margin:0 0 0 115px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #295B80;
+}
+
+.menu-central2 ul{
+	list-style: none;
+}
+
+.menu-central2 ul li{
+	display: inline;
+	margin:0 0 0 100px;	
+}
+
+.menu-central2 ul li img{
+	margin:70px 0 0 0px; 
+}
+
+.menu-central2 ul li span{
+	position: relative;
+	top:20px;
+	right: 65px;
+}
+
+.item-menu-central{
+	width: 960px;
+	height: 507px;
+	background-color: #DDDDDD;	
+}
+
+.texto-item-menu-central{
+	width:450px;	
+	margin: 40px 0 50px 40px;
+	float: left;
+}
+
+.texto-item-menu-central h1{
+	margin: 0 0 20px 0;
+}
+
+.img-item-menu-central img{
+	height: 282px;
+	width:373px;
+}
+
+.img-item-menu-central{
+	float: left;
+	margin: 30px 0 0 0;
+}
+
+.texto-item-menu-central p{
+	margin:0 0 40px 0;
+}
+
+
+.texto-item-menu-central ul{
+	list-style: none;
+}
+
+.texto-item-menu-central ul li{
+	margin: 0 0px 10px 0px;
+}
+
+.texto-item-menu-central ul li:before{
+	display: block;
+	width: 20px;
+	height: 20px;
+	content: '';
+	float: left;
+	background-image: url('../img/bullet.png');
+	margin-right: 10px;
+}
+
+.produto{
+	height: 650px;
+	width: 960px;
+	background-color: #F0F0F0;
+	padding: 30px 0 0 0;
+}
+
+.produto .texto-produto{
+	margin: 0px 0 50px 0;
+	text-align: center;
+}
+
+.produto .texto-produto h1{
+	margin: 0 0 15px 0;
+}
+
+.balao{
+	width: 352px;
+	height: 55px;	
+	margin:0 auto;
+}
+
+.balao ul {
+	list-style: none;
+}
+
+.balao ul li{
+	display: inline;	
+	margin:0 40px 0 0;	
+	color: #306B97;
+}
+
+.balao ul li a{
+	color: #306B97;
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 3px;
+	border: solid 2px #306B97;
+}
+
+.balao ul li .ativado{
+	background-color: #306B97;
+	color: #FFFFFF;
+}
+
+.balao ul .seta-baixo-balao{
+	position: relative;
+	right: 90px;
+	top: 6px;
+}
+
+.seta-baixo-balao {
+	margin:0 0 0 115px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #306B97;
+}
+
+.nexus{
+	width: 424px;
+	margin: 0 0 0 80px;
+	height: 405px;
+	float: left;
+}
+
+.descricao-nexus{
+	float: right;
+	height:117px; 
+	width:424px;
+	margin: 0 0 0 10px;	
+}
+
+.descricao-nexus p{
+	margin: 0 0 10px 0;
+}
+
+.descricao-nexus img{
+	margin: 0 10px 20px 0;
+}
+
+.precos{
+	background-color: #DDDDDD;
+	width: 960px;
+	height: 975px;
+}
+
+.texto-preco{
+	padding: 30px 0 0 0;
+	margin: 0 auto;
+	width: 600px;
+}
+
+.texto-preco h1{
+	margin: 0 0 20px 0;
+}
+
+.preco1{
+	background-color: #306B97;
+
+}
+
+.preco2{
+	background-color: #3CE75A;
+}
+
+.preco3{
+	background-color: #306B97;
+}
+
+.tamanho-preco{
+	width: 700px;
+	margin: 50px auto;
+	height: 200px;
+	border-radius: 3px;
+	color: #FFFFFF;
+	box-shadow: 0px 5px 0px #1F3785;
+}
+
+.tamanho-preco:nth-child(3){
+	box-shadow: 0px 5px 0px #579C5F;
+}
+
+.tamanho-preco ul{
+	list-style: none;
+}
+
+.desc-preco-esquerda{
+	float: left;
+	margin: 0 0 0 20px;
+}
+
+.desc-preco-esquerda span{
+	font-weight: bolder;
+	font-size: 30px;
+}
+.desc-preco-centro span{
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+.desc-preco-direita span{
+	font-weight: bolder;
+	font-size: 50px;
+}
+
+.desc-preco-direita p{
+	position: relative;
+	left: 70px;
+	bottom: 70px;
+}
+
+.desc-preco-centro p ~ p {
+	position: relative;
+	left: 30px;
+	bottom: 30px;
+}
+
+
+.desc-preco-centro{
+	float: left;
+	margin: 100px 0 0 50px;
+}
+
+.desc-preco-direita{
+	float: left;
+	margin: 10px 0 0 200px;
+}
+
+.desc-preco-direita form{
+	margin: 30px 0 30px 0px;
+}
+
+.desc-preco-esquerda h1{
+	margin: 30px 0 10px 0;
+}
+
+.mobile-bar{
+	width: 960px;
+	float: left;
+	height: 450px;
+}
+
+.mobile-bar img{
+	width: 195px;
+	height: 136px;
+}
+
+.mobile-bar h1{
+	margin: 30px 0 30px 0;
+	text-align: center;
+}
+
+.mobile-bar p{	
+	text-align: center;
+	padding: 0 50px 0 50px;
+}
+
+.mobile-bar .image{
+	float: left;
+	margin: 50px 30px 0 0;
+}
+
+.image:nth-child(3){
+	margin: 50px 60px 0 0px;
+}
+
+.image:nth-child(6){
+	margin: 50px 0 0 30px;
+}
+
+.questoes{
+	width: 960px;
+	height: 600px;
+	background-color: #EEEEEE;
+	float: left;
+}
+
+.questoes h1{
+	text-align: center;
+	margin:30px 0 30px 0;
+}
+
+.questoes .perguntas h2{
+	margin: 200px 0 50px 0;
+	text-align: center;
+}
+
+.questoes p{
+	text-align: center;
+	padding-left: 0 50px 0 50px;
+}
+
+
+.perguntas{
+	width: 700px;
+	margin: 0 auto;
+	padding: 50px 0 0 100px;
+}
+
+.botao{
+	float: left;
+	width: 191px;
+	height: 50px;
+	background-color: #306B97;
+	cursor: pointer;	
+	border-radius: 5px;
+	margin: 0 30px 30px 0;
+	line-height: 50px;
+	color: #FFFFFF;
+}
+
+.cadastro{
+	width: 500px;
+	padding: 0 0 10px 0px;
+	margin:0 auto;
+	background-color: #DDDDDD;
+
+}
+
+#your-name{
+	margin:20px 0 0 100px;
+	height: 30px;
+	width: 150px;
+	border-radius: 5px;
+	border: none;
+	padding: 0 0 0 5px;
+}
+
+#your-email{
+	margin:20px 0 0 0px;
+	width: 150px;
+	height: 30px;
+	border-radius: 5px;
+	border: none;
+	padding: 0 0 0 5px;
+}
+
+#your-question{
+	margin:5px 0 0 100px;
+	width: 308px;
+	height: 30px;
+	border-radius: 5px;
+	border: none;
+	padding: 0 0 0 5px;
+}
+
+.cadastro #purchase{
+	width: 70px;
+	margin:10px 0 0 220px;
+}
+
+.rodape{
+	width: 960px;
+	background-color: #2D2D2D;
+	height: 300px;
+	float: left;
+	color: #FFFFFF;
+}
+
+.rodape .coluna-rodape{
+	height:200px;
+	width:180px;
+	margin:50px 0px 0 50px;
+	float: left;
+}
+
+.coluna-rodape #purchase{
+	float: right;
+	margin: 10px 22px 0 0;
+}
+
+.contato{
+	text-align: right;
+}
+
+.contato h3{
+	margin:0 0 10px 0;
+}
+
+.contato img{
+	margin:0 0 20px 0;
+}
+
+
+
+
