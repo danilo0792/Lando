@@ -16,6 +16,7 @@
 	background-color: #2D2D2D;
 	height: 85px;
 	margin: 0 auto;
+	font-family:Montserrat, 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
 }
 
 .nav ul li{
@@ -57,7 +58,8 @@
 }
 
 .logo img{
-	height: 43px;
+	height: 32px;
+	width: 32px;
 	float: left;
 }
 
@@ -76,6 +78,7 @@
 }
 
 .article{
+	font-family:Montserrat, 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
 	width: 960px;
 	text-align: center;
 	padding: 50px 0px 0px 0px;
@@ -137,7 +140,7 @@
 }
 
 #purchase{
-	background-color:#006600;
+	background-color:#3CE75A;
 	padding: 10px;
 	border-radius: 5px;
 	border: none;
@@ -233,6 +236,7 @@
 }
 
 .texto-item-menu-central{
+	font-family:font-family:Montserrat, 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; 
 	width:450px;	
 	margin: 40px 0 50px 40px;
 	float: left;
@@ -240,6 +244,7 @@
 
 .texto-item-menu-central h1{
 	margin: 0 0 20px 0;
+	font-family:Montserrat, 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
 }
 
 .img-item-menu-central img{
@@ -253,6 +258,7 @@
 }
 
 .texto-item-menu-central p{
+	font-family:Montserrat, 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
 	margin:0 0 40px 0;
 }
 
@@ -283,6 +289,7 @@
 }
 
 .produto .texto-produto{
+	font-family:Montserrat, 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
 	margin: 0px 0 50px 0;
 	text-align: center;
 }
@@ -343,6 +350,7 @@
 }
 
 .descricao-nexus{
+	font-family:Montserrat, 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
 	float: right;
 	height:117px; 
 	width:424px;
@@ -364,6 +372,7 @@
 }
 
 .texto-preco{
+	font-family:Montserrat, 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
 	padding: 30px 0 0 0;
 	margin: 0 auto;
 	width: 600px;
@@ -387,6 +396,7 @@
 }
 
 .tamanho-preco{
+	font-family:Montserrat, 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
 	width: 700px;
 	margin: 50px auto;
 	height: 200px;
@@ -454,6 +464,7 @@
 }
 
 .mobile-bar{
+	font-family:Montserrat, 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
 	width: 960px;
 	float: left;
 	height: 450px;
@@ -488,6 +499,7 @@
 }
 
 .questoes{
+	font-family:Montserrat, 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
 	width: 960px;
 	height: 600px;
 	background-color: #EEEEEE;
@@ -569,11 +581,16 @@
 }
 
 .rodape{
+	font-family:'Open Sans', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
 	width: 960px;
 	background-color: #2D2D2D;
 	height: 300px;
 	float: left;
 	color: #FFFFFF;
+}
+
+.rodape p{
+	font-size: 12px;
 }
 
 .rodape .coluna-rodape{
