@@ -182,6 +182,7 @@
 .menu-central1 .texto-menu-central{
 	float: left;
 	margin: 50px 0 0 26px;
+	color: #FFF;
 }
 
 
@@ -312,6 +313,8 @@
 	display: inline;	
 	margin:0 40px 0 0;	
 	color: #306B97;
+	font-size: 12px;
+	font-family: font-family:Montserrat, 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
 }
 
 .balao ul li a{
@@ -334,7 +337,7 @@
 }
 
 .seta-baixo-balao {
-	margin:0 0 0 115px;
+	margin:-1px 0 0 115px;
 	width: 0;
 	height: 0;
 	border-left: 10px solid transparent;
